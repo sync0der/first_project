@@ -1,51 +1,128 @@
+### Java template
+# Compiled class file
+*.class
+
+# Log file
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# Package Files #
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+replay_pid*
+
+### Maven template
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+# https://github.com/takari/maven-wrapper#usage-without-binary-jar
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse m2e generated files
+# Eclipse Core
+.project
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+### JetBrains template
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, WebStorm and Rider
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# AWS User-specific
+.idea/**/aws.xml
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/artifacts
+# .idea/compiler.xml
+# .idea/jarRepositories.xml
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# SonarLint plugin
+.idea/sonarlint/
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
 /.idea/.gitignore
-/src/uz/pdp/project/backend/category/accessories/Accessories.java
-/src/uz/pdp/project/backend/roles/Admin.java
-/src/uz/pdp/project/database/adminAccounts.properties
-/src/uz/pdp/project/backend/orderings/Basket.java
-/src/uz/pdp/project/backend/category/beauty_and_health/BeautyAndHealth.java
-/src/uz/pdp/project/backend/roles/BlockedUsers.java
-/src/uz/pdp/project/backend/category/beauty_and_health/BodyCare.java
-/src/uz/pdp/project/backend/category/Catalog.java
-/src/uz/pdp/project/backend/category/clothing/ChildrenClothing.java
-/src/uz/pdp/project/backend/category/clothing/Clothing.java
-/src/uz/pdp/project/backend/category/home_appliances/DecorAndInterior.java
-/src/uz/pdp/project/frontend/DisplayClass.java
-/src/uz/pdp/project/backend/category/electronics/Electronics.java
-/src/uz/pdp/project/backend/favourites/FavouriteProducts.java
-/src/uz/pdp/project/backend/category/furniture/Furniture.java
-/src/uz/pdp/project/backend/category/furniture/FurnitureForBedRoom.java
-/src/uz/pdp/project/backend/category/furniture/FurnitureForKitchen.java
-/src/uz/pdp/project/backend/category/furniture/FurnitureForLivingRoom.java
-/src/uz/pdp/project/backend/category/electronics/Headphones.java
-/src/uz/pdp/project/backend/category/home_appliances/HomeAppliances.java
-/src/uz/pdp/project/backend/category/home_appliances/HouseHoldGoods.java
-/src/uz/pdp/project/backend/category/electronics/Laptops.java
-/src/uz/pdp/project/backend/category/beauty_and_health/MakeUp.java
-/src/uz/pdp/project/backend/category/clothing/MensClothing.java
-/src/uz/pdp/project/backend/category/accessories/MensJewellery.java
-/src/uz/pdp/project/backend/category/shoes/MensShoes.java
 /.idea/misc.xml
-/Module_3_Project.iml
 /.idea/modules.xml
-/src/uz/pdp/project/frontend/OnlineShopping.java
-/src/uz/pdp/project/backend/orderings/OrderedProducts.java
-/src/uz/pdp/project/backend/category/beauty_and_health/Perfume.java
-/src/uz/pdp/project/backend/payments/PromoCodes.java
-/src/uz/pdp/project/backend/recommendings/RecommendedProducts.java
-/src/uz/pdp/project/backend/roles/Roles.java
-/src/uz/pdp/project/backend/category/shoes/Shoes.java
-/src/uz/pdp/project/backend/category/electronics/Smartphones.java
-/src/uz/pdp/project/backend/category/electronics/Smartwatches.java
-/src/uz/pdp/project/backend/category/electronics/Televisions.java
-/src/uz/pdp/project/backend/top_sales/TopSale.java
-/.idea/uiDesigner.xml
-/src/uz/pdp/project/backend/roles/User.java
-/.idea/dictionaries/user.xml
-/src/uz/pdp/project/backend/payments/UserBankCards.java
-/src/uz/pdp/project/database/UserProfiles.java
 /.idea/vcs.xml
-/src/uz/pdp/project/backend/category/clothing/WomensClothing.java
-/src/uz/pdp/project/backend/category/accessories/WomensJewellery.java
-/src/uz/pdp/project/backend/category/shoes/WomensShoes.java
-/.idea/workspace.xml
