@@ -124,5 +124,6 @@ fabric.properties
 
 /.idea/.gitignore
 /.idea/misc.xml
+/Module_3_Project.iml
 /.idea/modules.xml
 /.idea/vcs.xml
