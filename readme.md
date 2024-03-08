@@ -47,6 +47,3 @@ This project uses the following technologies:
 
 If you have any suggestions or found any bugs, please open an issue or create a pull request.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).
